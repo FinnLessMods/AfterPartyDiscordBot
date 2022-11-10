@@ -1,10 +1,10 @@
 #WaLLE
-import discord
-from discord.ext import commands,tasks
 import os
-from dotenv import load_dotenv
-import youtube_dl
 
+import discord
+import youtube_dl
+from discord.ext import commands, tasks
+from dotenv import load_dotenv
 
 load_dotenv()
 # Get the API token from the .env file.
